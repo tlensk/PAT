@@ -1,0 +1,97 @@
+hypothetical protein,#000000
+ST Small Terminase,#FF2000
+LT Large Terminase,#FF6000
+LW Connector-Lambda gpW-like,#D5FF55
+PO Portal,#FF8000
+S7 SPP1 gp7-like Head Protein needed for ejection,#FFA000
+HP Head Protease,#FFC000
+HS Head Scaffold,#FFE000
+HD Head Decoration-Lambda D-like,#F0F000
+MH Major Head,#FFFF00
+PC Packaging Chaperone Lambda FI-Like,#E0FF00
+C1 Connector1,#C0FF00
+C2 Connector2,#A0FF00
+TC Tail Completion Protein,#40FF00
+TR Tail Terminator,#00FFA0
+TT Tail Tube,#00FFFF
+TG Tail Assembly Chaperone,#00E0FF
+TH Tail Assembly Chaperone-C-terminal Frameshift,#00C0FF
+TM Tape Measure,#00A0FF
+LM Tail Tip Lambda gpM-like,#0060FF
+LL Tail Tip Lambda gpL-like,#0040FF
+LK Tail Tip Lambda gpK-like,#1C55FF
+LI Tail Tip Lambda gpI-like,#0000FF
+CF Central Tail Fibre,#6000FF
+SF Tail Fibre,#8000FF
+FC Fibre Chaperone,#A000FF
+DT Dit-like Tail Proteins between TM and BH only in gram positive Sipho,#6BB5BF
+BH Hub-like baseplate proteins in Gram Positive Siphophages,#64A3B8
+PF PA filamentous virus,#0CD5BF
+BU Upper baseplate protein as in TP901,#CCCCCC
+BL Receptor binding/fibre protein Gram-positive siphophage,#5D91B1
+DL Myophage Dit-like,#80D0FF
+BD Baseplate hub in myoviridaelike P2 gpD or T4 gp27,#80C0FF
+BS Myophage tail spike,#80B0FF
+BW Myophage tail P2 gpW homologue,#80A0FF
+BJ Myophage tail P2 gpJ homologue,#8090FF
+BI Myophage tail P2 gpI homologue,#8080FF
+TS Phage tail sheath,#00FFC0
+HN HNH endonuclease,#808080
+CR HTH_CI Repressor,#CCCCCC
+IN Phage integrase,#67891A
+XL XkdX family,#61B9B9
+BX gpX/LysM,#C69ED3
+LY LysM domain,#C0C0C0
+MT small Mu tail protein encoded between TR and TS,#00FFC0
+HC Hcp1 Type VI SS,#912828
+6S T6SS sheath Vip Small and Large,#7D1414
+6J T6SS J similar,#B95050
+CV T6SS clpV,#9C6732
+S1 Put. secretion system,#8AFB17
+S2 Afp AAA ATPase,#6CDD00
+S3 PVC metalloprotease,#4EBF00
+UA conserved adj to gpU,#AAE0FF
+PG PG hydrolases,#FF85DA
+AA JOE TEST,#CCCCCC
+BB JOE BB,#FFFFFF
+S4 PMR-Associated HMM,#C6C672
+68 T6SS DUF876,#FFAAAA
+SE End of Tail Spike,#4E6EA3
+PT Aca,#7E587E
+T3 Type III Secretion,#81D8D0
+PS podophage tail,#1DAA99
+EP Encapsulin packaged proteins,#357EC7
+HO holin,#EB71C6
+26 T4 baseplate gp26/gp51,#9542C6
+RZ Rz lysis protein,#FF85DA
+TP Mu-like Transposase,#9E9E9E
+cI Linker of cI with proteolysis active sitei,#D0B600
+A6 PVC Afp6-like,#D9BDBD
+A4 Afp14-like,#4D8B0D
+A7 PVC Small Con1,#AA8895
+PV PVC associated function unclear,#91FF9F
+PVC PVC membrane associated,#9933
+TV Toxin/Virulence,#A0522D
+SAM Phage recombination proteins,#489000
+RP Phage replication,#85C4AD
+XI Phage Excisionase,#FF8080
+CRI Cas9 II-C,#FF7040
+PY R- or F-pyocin associated,#6BFF90
+NE New Encapsulin,#FFFF80
+1E I-E CRISPR system,#B0FF80
+T7S Type 7 secretion,#BF6BB5
+MO Moron,#E124A8
+TET TetR,#00A96C
+Pf PA filamentous virus,#0CD5BF
+NEF cNTP binding new encap fused,#98C83E
+54 T4 gp54,#02E5E1
+MF MuF Associated,#CC758E
+Acr Type I Acr,#E124A8
+CBA CBASS cyclases,#D6B71B
+Cro Cro repressor,#AAD34D
+CII CII,#C4FF33
+AR Antirepressor-related,#93FE02
+AT Anti-terminators,#09B2C6
+AE Phage accessory enzyme,#E8E197
+APA Anti-Phage Associated,#d279a6
+APP Putative Anti-Phage,#FEA202
