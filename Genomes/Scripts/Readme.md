@@ -19,4 +19,4 @@ python3 PATgb_fetch.py
 ```
 
 The genomic sequences in GenBank format will be uploaded to the current working directory. 
-Please make sure that there is enough space on the local machine to accomodate the sequences (**~ 18 Gb**).  
+Please make sure that there is enough space on the local machine to accomodate the sequences (**about 18 Gb**).  
