@@ -1,0 +1,387 @@
+Category	Category_ID	HMM_name	HMM_ID	HMM_desc
+ST	PT101	ST-Lam	PT101001	Small Terminase subunit; TerS
+ST	PT101	ST-HK97	PT101002	Small Terminase subunit; TerS
+ST	PT101	ST-SPP1	PT101003	Small Terminase subunit; TerS
+ST	PT101	ST-Sfi21	PT101004	Small Terminase subunit; TerS
+ST	PT101	ST-T1	PT101005	Small Terminase subunit; TerS
+ST	PT101	ST-P2	PT101006	Small Terminase subunit; TerS
+ST	PT101	ST-Mu	PT101007	Small Terminase subunit; TerS
+ST	PT101	ST-CD27	PT101008	Small Terminase subunit; TerS
+ST	PT101	ST-MP22	PT101009	Small Terminase subunit; TerS
+ST	PT101	ST-T7	PT101010	Small Terminase subunit; TerS
+ST	PT101	ST-Che8	PT101011	Small Terminase subunit; TerS
+ST	PT101	ST-B054	PT101012	Small Terminase subunit; TerS
+ST	PT101	ST-933W	PT101013	Small Terminase subunit; TerS
+ST	PT101	ST-Cdt	PT101014	Small Terminase subunit; TerS
+ST	PT101	ST-lp2	PT101015	Small Terminase subunit; TerS
+ST	PT101	ST-GTA	PT101016	Small Terminase subunit; TerS
+ST	PT101	ST-77	PT101017	Small Terminase subunit; TerS
+ST	PT101	ST-EJ	PT101018	Small Terminase subunit; TerS
+ST	PT101	ST-FL4A	PT101019	Small Terminase subunit; TerS
+LT	PT102	LT-Lam	PT102001	Large Terminase subunit; TerL
+LT	PT102	LT-HK97	PT102002	Large Terminase subunit; TerL
+LT	PT102	LT-SPP1	PT102003	Large Terminase subunit; TerL
+LT	PT102	LT-T1	PT102004	Large Terminase subunit; TerL
+LT	PT102	LT-P2	PT102005	Large Terminase subunit; TerL
+LT	PT102	LT-933W	PT102006	Large Terminase subunit; TerL
+LT	PT102	LT-phi29	PT102007	Large Terminase subunit; TerL
+LT	PT102	LT-CD27	PT102008	Large Terminase subunit; TerL
+PO	PT103	PO-Lam	PT103001	POrtal; connector in some older literature
+PO	PT103	PO-HK97	PT103002	POrtal; connector in some older literature
+PO	PT103	PO-SPP1	PT103003	POrtal; connector in some older literature
+PO	PT103	PO-T1	PT103004	POrtal; connector in some older literature
+PO	PT103	PO-Mu	PT103005	POrtal; connector in some older literature
+PO	PT103	PO-M6	PT103006	POrtal; connector in some older literature
+PO	PT103	PO-P22	PT103007	POrtal; connector in some older literature
+PO	PT103	PO-T7	PT103008	POrtal; connector in some older literature
+PO	PT103	PO-933W	PT103009	POrtal; connector in some older literature
+PO	PT103	PO-KPP10	PT103010	POrtal; connector in some older literature
+PO	PT103	PO-Dp1	PT103011	POrtal; connector in some older literature
+PO	PT103	PO-Rose	PT103012	POrtal; connector in some older literature
+PO	PT103	PO-phi29	PT103013	POrtal; connector in some older literature
+PO	PT103	PO-T4	PT103014	POrtal; connector in some older literature
+HIJ	PT104	HIJ-SPP1	PT104001	"Head InJected protein; E. coli phage Mu gpF, B. subtilis phage SPP1 gp7"
+HIJ	PT104	HIJ-CD27	PT104002	"Head InJected protein; E. coli phage Mu gpF, B. subtilis phage SPP1 gp7"
+HIJ	PT104	HIJ-A118	PT104003	"Head InJected protein; E. coli phage Mu gpF, B. subtilis phage SPP1 gp7"
+HIJ	PT104	HIJ-M6	PT104004	"Head InJected protein; E. coli phage Mu gpF, B. subtilis phage SPP1 gp7"
+HIJ	PT104	HIJ-Che8	PT104005	"Head InJected protein; E. coli phage Mu gpF, B. subtilis phage SPP1 gp7"
+HIJ	PT104	HIJ-D29	PT104006	"Head InJected protein; E. coli phage Mu gpF, B. subtilis phage SPP1 gp7"
+HP	PT105	HP-Lam	PT105001	"Head Protease; includes protease/scaffold fusion proteins, e.g., E. coli phage lambda gpC"
+HP	PT105	HP-HK97	PT105002	"Head Protease; includes protease/scaffold fusion proteins, e.g., E. coli phage lambda gpC"
+HP	PT105	HP-D3	PT105003	"Head Protease; includes protease/scaffold fusion proteins, e.g., E. coli phage lambda gpC"
+HP	PT105	HP-T1	PT105004	"Head Protease; includes protease/scaffold fusion proteins, e.g., E. coli phage lambda gpC"
+HP	PT105	HP-P2	PT105005	"Head Protease; includes protease/scaffold fusion proteins, e.g., E. coli phage lambda gpC"
+HP	PT105	HP-Mu	PT105006	"Head Protease; includes protease/scaffold fusion proteins, e.g., E. coli phage lambda gpC"
+HP	PT105	HP-CD27	PT105007	"Head Protease; includes protease/scaffold fusion proteins, e.g., E. coli phage lambda gpC"
+HP	PT105	HP-KPP10	PT105008	"Head Protease; includes protease/scaffold fusion proteins, e.g., E. coli phage lambda gpC"
+HP	PT105	HP-Phi297	PT105009	"Head Protease; includes protease/scaffold fusion proteins, e.g., E. coli phage lambda gpC"
+HP	PT105	HP-B3	PT105010	"Head Protease; includes protease/scaffold fusion proteins, e.g., E. coli phage lambda gpC"
+HP	PT105	HP-T4	PT105011	"Head Protease; includes protease/scaffold fusion proteins, e.g., E. coli phage lambda gpC"
+HS	PT106	HS-SPP1	PT106001	Head Scaffold; contain no protease domain
+HS	PT106	HS-TP901	PT106002	Head Scaffold; contain no protease domain
+HS	PT106	HS-B3	PT106003	Head Scaffold; contain no protease domain
+HS	PT106	HS-P22	PT106004	Head Scaffold; contain no protease domain
+HS	PT106	HS-933W	PT106005	Head Scaffold; contain no protease domain
+HS	PT106	HS-M6	PT106006	Head Scaffold; contain no protease domain
+HS	PT106	HS-N4	PT106007	Head Scaffold; contain no protease domain
+HS	PT106	HS-KPP10	PT106008	Head Scaffold; contain no protease domain
+HS	PT106	HS-BPP1	PT106009	Head Scaffold; contain no protease domain
+HS	PT106	HS-T7	PT106010	Head Scaffold; contain no protease domain
+HS	PT106	HS-HK639	PT106011	Head Scaffold; contain no protease domain
+HD	PT107	HDa-Lam	PT107001	Head Decoration; structure like E. coli phage lambda gpD
+HD	PT107	HDa-T1	PT107002	Head Decoration; structure like E. coli phage lambda gpD
+HD	PT107	HDa-PB1	PT107003	Head Decoration; structure like E. coli phage lambda gpD
+HD	PT107	HDa-F10	PT107004	Head Decoration; structure like E. coli phage lambda gpD
+HD	PT107	HDa-B3	PT107005	Head Decoration; structure like E. coli phage lambda gpD
+HD	PT107	HDa-Phi297	PT107006	Head Decoration; structure like E. coli phage lambda gpD
+HD	PT107	HDa-Dp1	PT107007	Head Decoration; structure like E. coli phage lambda gpD
+HD	PT107	HDa-FV3	PT107008	Head Decoration; structure like E. coli phage lambda gpD
+HD	PT107	HDa-phi29	PT107009	Head Decoration; structure like E. coli phage lambda gpD
+HD	PT107	HDa-MP29	PT107010	Head Decoration; structure like E. coli phage lambda gpD
+HD	PT107	HDa-SEN34	PT107011	Head Decoration; structure like E. coli phage lambda gpD
+HD	PT107	HDb-933W	PT107012	Head Decoration; structure like E. coli phage 933W gp55
+HD	PT107	HDb-Bcep22	PT107013	Head Decoration; structure like E. coli phage 933W gp55
+HD	PT107	HDb-KHP40	PT107014	Head Decoration; structure like E. coli phage 933W gp55
+HD	PT107	HDb-BPP1	PT107015	Head Decoration; structure like E. coli phage 933W gp55
+HD	PT107	HDb-Cd	PT107016	Head Decoration; structure like E. coli phage 933W gp55
+MH	PT108	MH-Lam	PT108001	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-HK97	PT108002	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-SPP1	PT108003	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-T1	PT108004	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-P2	PT108005	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-Mu	PT108006	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-SPO1	PT108007	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-PB1	PT108008	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-CD27	PT108009	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-M6	PT108010	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-phiHT2	PT108011	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-B3	PT108012	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-Phi297	PT108013	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-P22	PT108014	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-T7	PT108015	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-933W	PT108016	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-N4	PT108017	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-FL4A	PT108018	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-Giles	PT108019	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-Barn	PT108020	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-phi29	PT108021	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-Ngo	PT108022	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-Q54	PT108023	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-B40	PT108024	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-3396	PT108025	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-Pap3	PT108026	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-AHJD	PT108027	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-VP2	PT108028	"Major Head; capsid protein, major capsid protein"
+MH	PT108	MH-JL1	PT108029	"Major Head; capsid protein, major capsid protein"
+PC	PT109	PC-Mu	PT109001	DNA Packaging Chaperone; E. coli phage lambda gpFI
+PC	PT109	PC-TP901	PT109002	DNA Packaging Chaperone; E. coli phage lambda gpFI
+PC	PT109	PC-Dp1	PT109003	DNA Packaging Chaperone; E. coli phage lambda gpFI
+PC	PT109	PC-skin	PT109004	DNA Packaging Chaperone; E. coli phage lambda gpFI
+PC	PT109	PC-Lam	PT109005	DNA Packaging Chaperone; E. coli phage lambda gpFI
+PC	PT109	PC-Nme	PT109006	DNA Packaging Chaperone; E. coli phage lambda gpFI
+PC	PT109	PC-Phi297	PT109007	DNA Packaging Chaperone; E. coli phage lambda gpFI
+PC	PT109	PC-B025	PT109008	DNA Packaging Chaperone; E. coli phage lambda gpFI
+HT1	PT110	HT1a-HK97	PT110001	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-T1	PT110002	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-P2	PT110003	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-Mu	PT110004	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-A118	PT110005	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-M6	PT110006	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-P40	PT110007	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-D29	PT110008	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-D3	PT110009	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-P22	PT110010	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-933W	PT110011	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-T7	PT110012	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-PBSX	PT110013	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-Cjw	PT110014	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-Bph	PT110015	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-Strp	PT110016	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-phiHT2	PT110017	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-PH10	PT110018	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1a-B025	PT110019	"Head-Tail joining 1, type a; E. coli phage HK97 gp6, B. subtilis phage SPP1 gp15"
+HT1	PT110	HT1b-Lam	PT110020	"Head-Tail joining 1, type b; E. coli phage lambda gpW"
+HT1	PT110	HT1b-F10	PT110021	"Head-Tail joining 1, type b; E. coli phage lambda gpW"
+HT1	PT110	HT1b-S1	PT110022	"Head-Tail joining 1, type b; E. coli phage lambda gpW"
+HT2	PT111	HT2-Lam	PT111001	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-HK97	PT111002	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-T1	PT111003	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-A118	PT111004	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-D29	PT111005	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-KPP10	PT111006	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-PB1	PT111007	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-TP901	PT111008	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-FL1A	PT111009	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-PBSX	PT111010	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-T4	PT111011	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-Gif	PT111012	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-phiHT2	PT111013	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-FL3A	PT111014	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-Bcer	PT111015	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-B025	PT111016	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-2389	PT111017	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-Che8	PT111018	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-BFK	PT111019	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+HT2	PT111	HT2-Alpha	PT111020	"Head-Tail joining 2; E. coli phage lambeda gpFII, B. subtilis phage SPP1 gp16"
+TC	PT201	TC-Lam	PT201001	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-HK97	PT201002	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-T1	PT201003	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-P2	PT201004	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-PB1	PT201005	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-CD27	PT201006	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-A118	PT201007	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-D29	PT201008	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-Phi297	PT201009	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-Sfv	PT201010	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-PBSX	PT201011	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-Bcer	PT201012	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-2389	PT201013	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-IEBH	PT201014	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-B025	PT201015	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-PH10	PT201016	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-She	PT201017	Tail Completion; E. coli phage lambda gpZ
+TC	PT201	TC-Alpha	PT201018	Tail Completion; E. coli phage lambda gpZ
+TR	PT202	TR-Lam	PT202001	Tail teRminator
+TR	PT202	TR-HK97	PT202002	Tail teRminator
+TR	PT202	TR-T1	PT202003	Tail teRminator
+TR	PT202	TR-P2	PT202004	Tail teRminator
+TR	PT202	TR-Mu	PT202005	Tail teRminator
+TR	PT202	TR-SPO1	PT202006	Tail teRminator
+TR	PT202	TR-PB1	PT202007	Tail teRminator
+TR	PT202	TR-A118	PT202008	Tail teRminator
+TR	PT202	TR-MP22	PT202009	Tail teRminator
+TR	PT202	TR-Sfi21	PT202010	Tail teRminator
+TR	PT202	TR-Phi297	PT202011	Tail teRminator
+TR	PT202	TR-BcepMu	PT202012	Tail teRminator
+TR	PT202	TR-D29	PT202013	Tail teRminator
+TR	PT202	TR-Giles	PT202014	Tail teRminator
+TR	PT202	TR-FL4A	PT202015	Tail teRminator
+TR	PT202	TR-FL1A	PT202016	Tail teRminator
+TR	PT202	TR-KPP10	PT202017	Tail teRminator
+TR	PT202	TR-CD38	PT202018	Tail teRminator
+TR	PT202	TR-Mono	PT202019	Tail teRminator
+TR	PT202	TR-Nme	PT202020	Tail teRminator
+TR	PT202	TR-Curly	PT202021	Tail teRminator
+TR	PT202	TR-PY54	PT202022	Tail teRminator
+TR	PT202	TR-2389	PT202023	Tail teRminator
+TR	PT202	TR-Clost	PT202024	Tail teRminator
+TR	PT202	TR-PA6	PT202025	Tail teRminator
+TR	PT202	TR-phiHT2	PT202026	Tail teRminator
+TR	PT202	TR-PH10	PT202027	Tail teRminator
+TR	PT202	TR-B025	PT202028	Tail teRminator
+TR	PT202	TR-FL3A	PT202029	Tail teRminator
+TR	PT202	TR-Alpha	PT202030	Tail teRminator
+TA1	PT203	TA1-Mu	PT203001	Tail Associated 1; unknown function; E. coli phage Mu gp38
+TA1	PT203	TA1-MP22	PT203002	Tail Associated 1; unknown function; E. coli phage Mu gp38
+TA1	PT203	TA1-BcepMu	PT203003	Tail Associated 1; unknown function; E. coli phage Mu gp38
+TS	PT204	TS-P2	PT204001	Tail Sheath
+TS	PT204	TS-PB1	PT204002	Tail Sheath
+TS	PT204	TS-K139	PT204003	Tail Sheath
+TS	PT204	TS-B4	PT204004	Tail Sheath
+TT	PT205	TT-T1	PT205001	Tail Tube
+TT	PT205	TT-CD27	PT205002	Tail Tube
+TT	PT205	TT-K139	PT205003	Tail Tube
+TT	PT205	TT-Ent	PT205004	Tail Tube
+TT	PT205	TT-Lacp2	PT205005	Tail Tube
+TT	PT205	TT-T4	PT205006	Tail Tube
+TT	PT205	TT-Sfi21	PT205007	Tail Tube
+TT	PT205	TT-SPP1	PT205008	Tail Tube
+TT	PT205	TT-P2	PT205009	Tail Tube
+TT	PT205	TT-Mu	PT205010	Tail Tube
+TT	PT205	TT-A2	PT205011	Tail Tube
+TT	PT205	TT-Lam	PT205012	Tail Tube
+TT	PT205	TT-B054	PT205013	Tail Tube
+TT	PT205	TT-PB1	PT205014	Tail Tube
+TT	PT205	TT-Bcep1	PT205015	Tail Tube
+TT	PT205	TT-ZF40	PT205016	Tail Tube
+TT	PT205	TT-Rcap	PT205017	Tail Tube
+TT	PT205	TT-P40	PT205018	Tail Tube
+TT	PT205	TT-SuMu	PT205019	Tail Tube
+TT	PT205	TT-2389	PT205020	Tail Tube
+TT	PT205	TT-GAP32	PT205021	Tail Tube
+TT	PT205	TT-HK97	PT205022	Tail Tube
+TT	PT205	TT-Che8	PT205023	Tail Tube
+TT	PT205	TT-SPO1	PT205024	Tail Tube
+TT	PT205	TT-CD38	PT205025	Tail Tube
+TT	PT205	TT-KS10	PT205026	Tail Tube
+TT	PT205	TT-MP22	PT205027	Tail Tube
+TT	PT205	TT-Haem	PT205028	Tail Tube
+TT	PT205	TT-M6	PT205029	Tail Tube
+TT	PT205	TT-D29	PT205030	Tail Tube
+TT	PT205	TT-A118	PT205031	Tail Tube
+TT	PT205	TT-Cjw	PT205032	Tail Tube
+TT	PT205	TT-P23-45	PT205033	Tail Tube
+TT	PT205	TT-Neis	PT205034	Tail Tube
+TT	PT205	TT-PH15	PT205035	Tail Tube
+TM	PT206	TM-P2	PT206001	Tape Measure
+TM	PT206	TM-Lam-1	PT206002	Tape Measure
+TM	PT206	TM-Lam-4	PT206003	Tape Measure
+TM	PT206	TM-HK97-1	PT206004	Tape Measure
+TM	PT206	TM-SM1	PT206005	Tape Measure
+TM	PT206	TM-HK97-3	PT206006	Tape Measure
+TM	PT206	TM-Lam-4	PT206007	Tape Measure
+TM	PT206	TM-HK97-2	PT206008	Tape Measure
+TM	PT206	TM-SPP1	PT206009	Tape Measure
+TM	PT206	TM-D3	PT206010	Tape Measure
+TM	PT206	TM-HK97-4	PT206011	Tape Measure
+TM	PT206	TM-Lam-2	PT206012	Tape Measure
+TM	PT206	TM-MP22	PT206013	Tape Measure
+TM	PT206	TM-phiC2	PT206014	Tape Measure
+TM	PT206	TM-SuMu	PT206015	Tape Measure
+TAC	PT207	TACN-Lam	PT207001	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-HK97	PT207002	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-SPP1	PT207003	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-D3	PT207004	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-T1	PT207005	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-P2	PT207006	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-SPO1	PT207007	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-PBSX	PT207008	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-A118	PT207009	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-MP22	PT207010	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-Rcap	PT207011	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-Sfi21	PT207012	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-KPP10	PT207013	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-Phi297	PT207014	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-MM1	PT207015	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-D29	PT207016	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-S1249	PT207017	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-K139	PT207018	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-GTA	PT207019	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-SuMu	PT207020	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-Ppu	PT207021	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-Alpha	PT207022	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-Curly	PT207023	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-Bac	PT207024	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-PH10	PT207025	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-PVL	PT207026	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-c5	PT207027	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-PY54	PT207028	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACN-2389	PT207029	Tail Assembly Chaperone N-terminal domain; E. coli phage lambda gpG
+TAC	PT207	TACC-Lam	PT207030	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-T1	PT207031	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-TP901	PT207032	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-A118	PT207033	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-D29	PT207034	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-SPP1	PT207035	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-D3	PT207036	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-GTA	PT207037	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-P2	PT207038	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-HK97	PT207039	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-Eco	PT207040	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-Bac	PT207041	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-K139	PT207042	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-PH15	PT207043	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-FL3A	PT207044	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-Gamma	PT207045	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-Lac	PT207046	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+TAC	PT207	TACC-Spn	PT207047	"Tail Assembly Chaperone C-terminal domain; joined to N-terminal domain through translational frameshigt, E. coli phage lambda gpT"
+DTN	PT301	DTN-Lam	PT301001	Distal Tail siphophage Gram-Negative; E. coli phage lambda gpM
+DTN	PT301	DTN-D3	PT301002	Distal Tail siphophage Gram-Negative; E. coli phage lambda gpM
+DTN	PT301	DTN-MP22	PT301003	Distal Tail siphophage Gram-Negative; E. coli phage lambda gpM
+DTN	PT301	DTN-GTA	PT301004	Distal Tail siphophage Gram-Negative; E. coli phage lambda gpM
+DTN	PT301	DTN-PY54	PT301005	Distal Tail siphophage Gram-Negative; E. coli phage lambda gpM
+THN	PT302	THN-Lam	PT302001	Tail Hub siphophage Gram-Negative; E. coli phage lambda gpL
+THN	PT302	THN-D3	PT302002	Tail Hub siphophage Gram-Negative; E. coli phage lambda gpL
+THN	PT302	THN-GTA	PT302003	Tail Hub siphophage Gram-Negative; E. coli phage lambda gpL
+THN	PT302	THN-MP22	PT302004	Tail Hub siphophage Gram-Negative; E. coli phage lambda gpL
+THN	PT302	THN_C-GTA	PT302005	Tail Hub siphophage Gram-Negative; E. coli phage lambda gpL
+THN	PT302	THN-PY54	PT302006	Tail Hub siphophage Gram-Negative; E. coli phage lambda gpL
+TNLP	PT303	TNLP-Lam	PT303001	Tail NlpC domain siphophage Gram-negative; E. coli phage lambda gpK
+TNLP	PT303	TNLP-PY54	PT303002	Tail NlpC domain siphophage Gram-negative; E. coli phage lambda gpK
+TNLP	PT303	TNLP_N-Lam	PT303003	Tail NlpC domain siphophage Gram-negative; E. coli phage lambda gpK
+THI	PT304	THI-MP22	PT304001	Tail Hub Internal siphophage Gram-negative; E. coli phage lambda gpI
+THI	PT304	THI_C-Lam	PT304002	Tail Hub Internal siphophage Gram-negative; E. coli phage lambda gpI
+THI	PT304	THI_N-Lam	PT304003	Tail Hub Internal siphophage Gram-negative; E. coli phage lambda gpI
+CF	PT305	CF-RDJL	PT305001	Central Fibre siphophage Gram-negative; E. coli phage lambda gpJ
+CF	PT305	CF-Lam-1	PT305002	Central Fibre siphophage Gram-negative; E. coli phage lambda gpJ
+CF	PT305	CF-SE2	PT305003	Central Fibre siphophage Gram-negative; E. coli phage lambda gpJ
+CF	PT305	CF-Lam-2	PT305004	Central Fibre siphophage Gram-negative; E. coli phage lambda gpJ
+CF	PT305	CF-Lam-3	PT305005	Central Fibre siphophage Gram-negative; E. coli phage lambda gpJ
+CF	PT305	CF-F10	PT305006	Central Fibre siphophage Gram-negative; E. coli phage lambda gpJ
+CF	PT305	CF_N-SE2	PT305007	Central Fibre siphophage Gram-negative; E. coli phage lambda gpJ
+CF	PT305	CF_N-GTA	PT305008	Central Fibre siphophage Gram-negative; E. coli phage lambda gpJ
+CF	PT305	CF_Co-D3	PT305009	Central Fibre siphophage Gram-negative; CF core D3
+CF	PT305	CF_Co-PY54	PT305010	Central Fibre siphophage Gram-negative; CF core PY54
+DTP	PT401	DTP-SPP1	PT401001	Distal Tail siphophage Gram-Positive; Dit
+DTP	PT401	DTP-D29	PT401002	Distal Tail siphophage Gram-Positive; Dit
+DTP	PT401	DTP-PH10	PT401003	Distal Tail siphophage Gram-Positive; Dit
+DTP	PT401	DTP-Lmo	PT401004	Distal Tail siphophage Gram-Positive; Dit
+DTP	PT401	DTP-Bif	PT401005	Distal Tail siphophage Gram-Positive; Dit
+THP	PT402	THP-SPP1	PT402001	Tail Hub siphophage Gram-Positive; Tal
+THP	PT402	THP-A118	PT402002	Tail Hub siphophage Gram-Positive; Tal
+THP	PT402	THP-FL4A	PT402003	Tail Hub siphophage Gram-Positive; Tal
+THP	PT402	THP-Sfi21	PT402004	Tail Hub siphophage Gram-Positive; Tal
+THP	PT402	THP-D29	PT402005	Tail Hub siphophage Gram-Positive; Tal
+BH1	PT501	BH1-P2	PT501001	"Baseplate Hub 1 myophage; E. coli phages P2 gpU, Mu gp43"
+BH1	PT501	BH1-Mu	PT501002	"Baseplate Hub 1 myophage; E. coli phages P2 gpU, Mu gp43"
+BH1	PT501	BH1-PB1	PT501003	"Baseplate Hub 1 myophage; E. coli phages P2 gpU, Mu gp43"
+BH1	PT501	BH1-CD27	PT501004	"Baseplate Hub 1 myophage; E. coli phages P2 gpU, Mu gp43"
+BH1	PT501	BH1-SPO1	PT501005	"Baseplate Hub 1 myophage; E. coli phages P2 gpU, Mu gp43"
+BH1	PT501	BH1-KPP10	PT501006	"Baseplate Hub 1 myophage; E. coli phages P2 gpU, Mu gp43"
+BH1	PT501	BH1-K139	PT501007	"Baseplate Hub 1 myophage; E. coli phages P2 gpU, Mu gp43"
+BH2	PT502	BH2-SPO1	PT502001	"Baseplate Hub 2 myophage; E. coli phages P2 gpD, Mu gp44"
+BH2	PT502	BH2-PB1	PT502002	"Baseplate Hub 2 myophage; E. coli phages P2 gpD, Mu gp44"
+BH2	PT502	BH2-CD27	PT502003	"Baseplate Hub 2 myophage; E. coli phages P2 gpD, Mu gp44"
+BH2	PT502	BH2-K139	PT502004	"Baseplate Hub 2 myophage; E. coli phages P2 gpD, Mu gp44"
+BH2	PT502	BH2-P2	PT502005	"Baseplate Hub 2 myophage; E. coli phages P2 gpD, Mu gp44"
+BH3	PT503	BH3a-P2	PT503001	"Baseplate Hub 3,  type a, myophage; LysM-like domain, E. coli phage P2 gpX"
+BH3	PT503	BH3a-SPO1	PT503002	"Baseplate Hub 3,  type a, myophage; LysM-like domain, E. coli phage P2 gpX"
+BH3	PT503	BH3b-PB1	PT503003	"Baseplate Hub 3, type b, myophage; Location similar to BH3a, structure is different"
+BH3	PT503	BH3b-Eco	PT503004	"Baseplate Hub 3, type b, myophage; Location similar to BH3a, structure is different"
+BS	PT504	BS-P2	PT504001	"Baseplate Spikc myophage; at centre of baseplate, E. coli phages P2 gpV, Mu gp45, T4 gp5"
+BS	PT504	BS-CD27	PT504002	"Baseplate Spikc myophage; at centre of baseplate, E. coli phages P2 gpV, Mu gp45, T4 gp5"
+BS	PT504	BS-K139	PT504003	"Baseplate Spikc myophage; at centre of baseplate, E. coli phages P2 gpV, Mu gp45, T4 gp5"
+BS	PT504	BS-SPO1	PT504004	"Baseplate Spikc myophage; at centre of baseplate, E. coli phages P2 gpV, Mu gp45, T4 gp5"
+BS	PT504	BS-PB1	PT504005	"Baseplate Spikc myophage; at centre of baseplate, E. coli phages P2 gpV, Mu gp45, T4 gp5"
+BW1	PT505	BW1-P2	PT505001	"Baseplate Wedge 1 myophage; E. coli phages P2 gpW, Mu gp46, T4 gp25"
+BW1	PT505	BW1-Mu	PT505002	"Baseplate Wedge 1 myophage; E. coli phages P2 gpW, Mu gp46, T4 gp25"
+BW1	PT505	BW1-SPO1	PT505003	"Baseplate Wedge 1 myophage; E. coli phages P2 gpW, Mu gp46, T4 gp25"
+BW1	PT505	BW1-KPP10	PT505004	"Baseplate Wedge 1 myophage; E. coli phages P2 gpW, Mu gp46, T4 gp25"
+BW1	PT505	BW1-K139	PT505005	"Baseplate Wedge 1 myophage; E. coli phages P2 gpW, Mu gp46, T4 gp25"
+BW2	PT506	BW2-P2	PT506001	"Baseplate Wedge 2 myophage; E. coli phages P2 gpJ, Mu gp47, T4 gp6"
+BW2	PT506	BW2-PB1	PT506002	"Baseplate Wedge 2 myophage; E. coli phages P2 gpJ, Mu gp47, T4 gp6"
+BW3	PT507	BW3-P2	PT507001	"Baseplate Wedge 3 myophage; E. coli phages P2 gpI, Mu gp48, T4 gp7"
+BW3	PT507	BW3-Mu	PT507002	"Baseplate Wedge 3 myophage; E. coli phages P2 gpI, Mu gp48, T4 gp7"
+BW3	PT507	BW3-SPO1	PT507003	"Baseplate Wedge 3 myophage; E. coli phages P2 gpI, Mu gp48, T4 gp7"
+BW3	PT507	BW3-KPP10	PT507004	"Baseplate Wedge 3 myophage; E. coli phages P2 gpI, Mu gp48, T4 gp7"
+BW3	PT507	BW3-Bxz1	PT507005	"Baseplate Wedge 3 myophage; E. coli phages P2 gpI, Mu gp48, T4 gp7"
