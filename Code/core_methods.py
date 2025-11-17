@@ -1,10 +1,9 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+"""
+@author: Tatiana Lenskaia
+All rights reserved, 2025
+E-mail: lensk010@gmail.com
+"""
 
-"""
-@author: Tatiana Lenskaia, email: lensk010@umn.edu
-All rights reserved, 2021
-"""
 
 import random
 import copy as cp
