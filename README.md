@@ -145,9 +145,6 @@ In addition, we suggest the following practical recommendations:
 #### 5.	Conclusions
 <p>Phage head morphogenesis rests on a compact set of structural modules that are reused and recombined across Caudovirales. HMM family co-occurrence analysis anchored to structural knowledge about the HK97-fold, scaffolding behavior, portal architecture, and maturation proteases - reveals reproducible neighborhoods that define assembly strategies more robustly than synteny alone. Integrating neighborhood-aware annotation into pipelines such as PAT improves classification and highlights promising experimental targets for understanding and harnessing phage assembly.</p>
 
-#### Acknowledgements
-<p>Thanks to collaborators. Funding and institutional acknowledgements to be added.</p>
-
 #### References
 
 Ackermann, H. (2007). 5500 Phages examined in the electron microscope. Archives of Virology, 152(2), 227–243. 
