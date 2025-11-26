@@ -1,7 +1,6 @@
 """
-@author: Tatiana Lenskaia
-All rights reserved, 2025
-E-mail: lensk010@gmail.com
+Copyright: (c) 2025 Tatiana Lenskaia. All rights reserved.
+E-mail: t.lenskaia@icloud.com
 """
 
 
