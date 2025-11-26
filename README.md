@@ -27,12 +27,12 @@
 #### 2.	Materials and Methods
 
 ##### 2.1.	 Dataset and Annotation Workflow
-<p>We assembled a curated training dataset of more than 600 complete phage genomes of length not exciding 100 Kbp (Fig.1A) and representing the classical Caudovirales lineages that infect Gram-positive and Gram-negative bacteria. In addition, we utilized well-characterized phages such as Lambda-like, HK97, Mu, P2, P22, and others, as paradigm phages for downstream classification. Additional large complete genomes (greater than 100 Kbp) were explored but not included in the main training set (Table S1). All genomes were annotated using our in-house Phage Annotation Toolkit (PAT) that draws on three primary resources: (i) BLAST searches against an internal annotated genome library, (ii) HMMER searches (iii) a continually expanding collection of manually curated phage-specific HMM families derived from experimentally validated morphogenetic proteins.</p>
+<p>We assembled a curated training dataset of more than 600 complete phage genomes of length not exciding 100 Kbp (<strong>Fig.1A</strong>) and representing the classical Caudovirales lineages that infect Gram-positive and Gram-negative bacteria (<strong>Fig.1B</strong>). In addition, we utilized well-characterized phages such as Lambda-like, HK97, Mu, P2, P22, and others, as paradigm phages for downstream classification. Additional large complete genomes (greater than 100 Kbp) were explored but not included in the main training set (Table S1). All genomes were annotated using our in-house Phage Annotation Toolkit (PAT) that draws on three primary resources: (i) BLAST searches against an internal annotated genome library, (ii) HMMER searches (iii) a continually expanding collection of manually curated phage-specific HMM families derived from experimentally validated morphogenetic proteins.</p>
 
 <p align="center"><img alt="Figure 1." src="https://github.com/user-attachments/assets/ef9eda36-f81b-4b2e-b762-49c9858ce3e4" /></p>
 
 
-__Fig.1.__ Summary of the phage genomes: (A) distribution of genome length and GC-content; <br>(B) distribution of tail morphology and phage hosts.
+<p align="center"><strong>Fig.1.</strong> Summary of the phage genomes: (A) distribution of genome length and GC-content; <br>(B) distribution of tail morphology and phage hosts.</p>
 
 
 <p>A key aim of the developed workflow was to detect conserved structural functions within morphogenetic regions, including many initially unannotated ORFs. For each unannotated protein, the pipeline first performed BLAST searches followed by MUSCLE alignments. These alignments were queried against Pfam and PAT HMM libraries to identify candidate functional domains. Putative hits were evaluated using two criteria: (a) HMMER bitscore/E-value support, and (b) consistency with the genomic order for that lineage. When these conditions were met, manual curation proceeded via PAT’s “create HMM” interface, producing new composite HMMs that were added to the functional categories maintained by PAT. In total, PAT tracks above 30 morphogenetic functions central to phage head and tail assembly (Table. S2), with additional 20 functions relevant to phage infection and propagation (not shown). Each new HMM family expands the toolkit’s ability to annotate divergent structural proteins, increasing coverage across diverse phage groups.</p>
@@ -51,3 +51,58 @@ __Fig.1.__ Summary of the phage genomes: (A) distribution of genome length and G
 
 <p>To investigate conserved functional neighborhoods, we constructed binary presence/absence matrices of the HMM families across the annotated genomes. Pairwise association statistics were used to identify HMM families that co-occur often. We extended this analysis using custom Python neighborhood detection scripts. Within each major morphotype cluster, a designated anchor HMM - typically the portal protein, present and accurately annotated in the genomes - served as the starting point. For each genome, all HMM families within ±5 genes of the anchor were extracted, and genomes sharing similar local family compositions were grouped. This procedure yielded “morphogenetic neighborhoods”: recurring sets of HMM families that interact to form characteristic morphogenetic units.</p>
 <p>To explore higher-order relationships among HMM families, co-occurrence data were visualized as interaction networks using Cystoscape. Nodes represented individual HMM families, and edges reflected statistically supported associations. Network topology helped identify stable morphogenetic module configurations and functionally coupled families across lineages. These interactions were subsequently distilled into schematic representations presented in the Results section.</p>
+
+
+#### 3.	Results
+##### 3.1. Detection of Conserved Morphogenetic Functions in Tailed Phages
+
+<p>A central aim of this study was to carefully define and detect key head-related functions in the phage morphogenetic region (PMR), the genomic locus encoding the core structural modules required for phage particle formation and further successful propagation. Because the PMR provides a stable structural framework across Caudovirales, accurate identification of the underlying protein families is essential for any comparative or classification-oriented analysis.</p>
+<p>To achieve this, we defined structural-functional categories (modules) using the Phage Annotation Toolkit (PAT), each represented by multiple composite HMMs. These composite models integrate Pfam profiles with a growing collection of custom-generated HMMs curated from experimentally characterized and computationally analyzed morphogenetic proteins. Homology detection relied primarily on HMMER3, which provides greater sensitivity for divergent phage proteins than BLAST or PSI-BLAST. Searches were performed using a high-confidence probability threshold (90%), enabling precise annotation of head-associated functions including large and small terminase subunits, portal protein, major head protein, scaffold proteins, head-tail joining proteins, decoration/auxiliary proteins, and where present, head proteases.</p>
+<p>Across the phage genomes in our training dataset, PAT successfully annotated more than half of the PMR-related functions in most categories, with portal (PO), large terminase (LT), and major head (MH) families exceeding 90% coverage (<strong>Table 1.</strong>). As the annotation pipeline matured, we incorporated automated detection of previously unannotated ORFs and manual curation of new families, ultimately expanding the library to almost 400 HMM families that collectively annotated several thousand of proteins previously labeled as hypothetical or of unknown function. These expanded annotations substantially improved the resolution of PMR detection in the phage genomes and provided the basis for subsequent classification.</p>
+
+
+
+
+
+<p align="center"><strong>Table 1.</strong> Coverage for the selected morphogenetic categories in the main training set.</p>
+
+<p align="center"><img alt="Table 1." src="https://github.com/user-attachments/assets/a5393f80-3e6d-4ab4-9f19-c8e865560e54" /></p>
+
+
+<p>We grouped phages into main branches by using the relative order of three conserved head-associated modules: portal (PO), major head (MH), and large terminase (LT), as a simple, biologically meaningful signature of head-region general organization. Empirically, these genes tend to cluster within a compact morphogenetic locus and their local ordering is relatively conserved within lineages, so differences in their arrangement frequently reflect alternative assembly strategies and evolutionary histories, not random rearrangements. Comparative genomic studies and reviews of phage genome architecture document this stability: morphogenetic genes (including terminases, portal and major head proteins) are commonly found together in the same genomic neighborhood and their ordering has been used as a phylogenomic and classification cue.</p>
+<p>Structural and functional work further supports the biological basis of this ordering because the terminase, portal and major head interact during packaging and assembly and have relationships that impose constraints on which gene products must be co-localized. More recent genomic surveys and comparative analyses have exploited MH and terminase phylogenies together with conserved gene synteny to partition phage diversity into clusters and subclusters, demonstrating that module order is a robust feature for grouping related genomes at coarse taxonomic scales.  In practice, we extracted the local gene order for PO, MH, and LT (and also small terminase where present) from each genome and use it as main axis of similarity in our clustering pipeline. This approach therefore couples mechanistic insight (which proteins must functionally interact) with comparative genomics evidence (which genes remain syntenic across lineages) to produce phylogenetically and functionally meaningful main branches (<strong>Fig.2</strong>).</p>
+
+ <img alt="Figure 2." src="https://github.com/user-attachments/assets/4417fdb3-a124-40ab-8a65-7fa95629e0d6" />
+
+ 
+
+<p align="center"><strong>Fig.2.</strong> Main branches based the relative order of three conserved head-associated modules: 
+portal (PO), major head (MH), and large terminase (LT).</p>
+
+
+##### 3.2. Primary Classification of Phage Genomes
+
+Following annotation, we classified the genomes according to the organization and composition of their morphogenetic regions. Genomes containing a complete, interpretable PMR were included in a filtered genome pool, which contained several clusters differing in the number and arrangement of head-associated modules. These clusters were then mapped onto main Caudovirales head morphotypes using a semi-automated workflow that compared function order, neighborhood composition, and global genomic architecture. We defined seven main head types corresponded to paradigm phage morphotypes (<strong>Table 2.</strong>). 
+Their genomic organizations, including the characteristic ordering of terminase, portal, scaffold, major head, protease (when present), and head-tail joining proteins, provided the backbone for primary classification. This initial assignment placed the majority of genomes into well-defined groups while leaving a smaller collection of “outlier” genomes that required deeper examination. Across all genomes, five core morphogenetic modules were nearly universal: portal protein, major head proteins, a scaffold protein (either separate or MH-fused), a head protease (in protease-containing lineages), and a head–tail joining protein. Our analysis uncovered a limited number of recurrent arrangements shared across multiple phage genomes.
+
+<p align="center"><strong>Table 2.</strong> Summary of the main head types.</p>
+<p align="center"><img alt="Table 2." src="https://github.com/user-attachments/assets/84b53e43-4799-4e75-9c16-979fe0a37c4e" /></p>
+
+
+###### 3.3. HMM Co-Occurrence and Morphogenetic Neighborhoods 
+
+<p>To explore functional and evolutionary relationships beyond simple presence/absence, we examined the co-occurrence of HMM families within local PMR neighborhoods. Because each morphogenetic function is represented by multiple HMM families, reflecting the deep sequence diversity of phage proteins, co-occurrence patterns reveal how specific structural modules preferentially assemble into higher-order architectural solutions.</p>
+<p>Detailed examination at the HMM-family level revealed strikingly specific patterns of co-occurrence. For example, the portal protein represented by 13 distinct HMM families showed strong lineage-specific associations. Most HMM families mapped uniquely to one of the seven major phage groups. For example, the PO-P22 HMM hits were present in phages with P22 head type. Portal HMM families consistently associated with distinct scaffold and protease families, initiating divergent downstream organization of the PMR. These observations demonstrate that co-occurrence of HMM families predicts PMR synteny, implying that modular compatibility between portal, scaffold, protease, and MH families shapes both local gene order and head morphogenesis.</p>
+<p>Patterns of co-occurrence also revealed functionally meaningful associations. For example, certain scaffold families consistently co-occurred with specific portal families, implying conserved HS-portal interaction surfaces that mirror recently visualized cryo-EM structures. Likewise, recurrent associations between specific protease-like HMM families and particular scaffold families suggest co-evolution of cleavage motifs and protease specificity. These interaction signatures highlight promising candidates for experimental validation using mutagenesis, structural analysis, and crosslinking, and they provide testable hypotheses for uncovering alternative assembly strategies and functional replacements within PMR evolution.</p>
+
+
+##### 3.4. Subclassification of Atypical or Ambiguous Genomes
+
+<p>Genomes that resisted primary classification due to atypical synteny were reanalyzed using their co-occurrence neighborhood profiles. This second stage of clustering emphasized gene order and local family context rather than global organization. Many outlier genomes were reassigned to appropriate subgroups when their PMR neighborhoods were considered, aligning classification not only with observed synteny but also with predicted MH structural class and accessory module composition.</p>
+
+##### 3.5. Simple and Complex Head Architectures
+
+<p>The combined neighborhood and synteny analyses allowed us to propose a novel organizational framework that categorizes heads along a spectrum from simple to complex. Simple heads, such as P22, contain a minimal set of modules (ST-LT-PO-HS-MH). Moderately complex heads, including HK97 types, incorporate additional connectors and sometimes proteases.  In addition, heads, such as SPP1, add specialized modules like the HIJ ejection protein. Highly specialized heads, including Mu, Lambda, and P2 types, show unusual features such as incorporation of tail completion proteins (Mu) or unconventional gene ordering starting at the portal (P2).</p>
+<p>Interestingly, simple heads exhibit greater HMM-level diversity, with multiple alternative neighborhoods, whereas complex heads rely on highly conserved, lineage-specific family combinations. This inversion simple genomic architecture but complex family diversity suggests that structural simplicity may permit greater evolutionary experimentation at the sequence-family level.</p>
+
+
