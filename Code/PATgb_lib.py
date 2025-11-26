@@ -1,7 +1,6 @@
 """
-@author: Tatiana Lenskaia
-All rights reserved, 2025
-E-mail: lensk010@gmail.com
+Copyright: (c) 2025 Tatiana Lenskaia. All rights reserved.
+E-mail: t.lenskaia@icloud.com
 """
 
 
@@ -412,3 +411,4 @@ def SeqDB_joinCDS_update_stat_old_GI(fInName, path, fListName = ""):
     #fOut.close()
     #return res+[ct_missed]
     return t_stat
+
