@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-@author: Tatiana Lenskaia. E-mail: t.lenskaia@utoronto.ca
+Copyright: (c) 2025 Tatiana Lenskaia. All rights reserved.
+E-mail: t.lenskaia@icloud.com
 """
 
 # Retrieving sequence from NCBI in GenBank format
