@@ -142,4 +142,35 @@ In addition, we suggest the following practical recommendations:
 3.	Integrate structure prediction (AlphaFold) and cryo-EM docking to bridge sequence-level HMM signals with 3D mechanistic models.
 
 
+#### 5.	Conclusions
+<p>Phage head morphogenesis rests on a compact set of structural modules that are reused and recombined across Caudovirales. HMM family co-occurrence analysis anchored to structural knowledge about the HK97-fold, scaffolding behavior, portal architecture, and maturation proteases - reveals reproducible neighborhoods that define assembly strategies more robustly than synteny alone. Integrating neighborhood-aware annotation into pipelines such as PAT improves classification and highlights promising experimental targets for understanding and harnessing phage assembly.</p>
+
+#### Acknowledgements
+<p>Thanks to collaborators. Funding and institutional acknowledgements to be added.</p>
+
+#### References
+
+Ackermann, H. (2007). 5500 Phages examined in the electron microscope. Archives of Virology, 152(2), 227–243. 
+
+Au, A., Lee, H., Ye, T., Dave, U., & Rahman, A. (2022). Bacteriophages: Combating Antimicrobial Resistance in Food-Borne Bacteria Prevalent in Agriculture. Microorganisms, 10(1), 46. 10.3390/microorganisms10010046
+
+Brüssow, H., Canchaya, C., & Hardt, W. (2004). Phages and the evolution of bacterial pathogens: from genomic rearrangements to lysogenic conversion. Microbiology and Molecular Biology Reviews, 68(3), 560–602.
+
+Chen, D., Baker, M. L., Hryc, C. F., DiMaio, F., Jakana, J., Wu, W., Dougherty, M., Haase-Pettingell, C., Schmid, M. F., & Jiang, W. (2011). Structural basis for scaffolding-mediated assembly and maturation of a dsDNA virus. Proceedings of the National Academy of Sciences, 108(4), 1355–1360. 
+
+Duda, R. L., & Teschke, C. M. (2019). The amazing HK97 fold: versatile results of modest differences. Current Opinion in Virology, 36, 9–16. 10.1016/j.coviro.2019.02.001
+
+Fuhrman, J. A. (1999). Marine viruses and their biogeochemical and ecological effects. Nature, 399(6736), 541–548. 10.1038/21119
+
+Ignatiou, A., Brasilès, S., El Sadek Fadel, M., Bürger, J., Mielke, T., Topf, M., Tavares, P., & Orlova, E. V. (2019). Structural transitions during the scaffolding-driven assembly of a viral capsid. Nature Communications, 10(1), 4840. 10.1038/s41467-019-12790-6
+
+Kortright, K. E., Chan, B. K., Koff, J. L., & Turner, P. E. (2019). Phage Therapy: A Renewed Approach to Combat Antibiotic-Resistant Bacteria. Cell Host & Microbe, 25(2), 219–232. 10.1016/j.chom.2019.01.014
+
+Koskella, B., & Brockhurst, M. A. (2014). Bacteria–phage coevolution as a driver of ecological and evolutionary processes in microbial communities. FEMS Microbiology Reviews, 38(5), 916–931. 10.1111/1574-6976.12072
+
+Rao, V. B., & Black, L. W. (2010). Structure and assembly of bacteriophage T4 head. Virology Journal, 7(1), 356. 10.1186/1743-422X-7-356
+
+Suttle, C. A. (2007). Marine viruses — major players in the global ecosystem. Nature Reviews Microbiology, 5(10), 801–812. 10.1038/nrmicro1750
+
+Vladimirov, M., Gautam, V., & Davidson, A. R. (2022). Identification of the tail assembly chaperone genes of T4-Like phages suggests a mechanism other than translational frameshifting for biogenesis of their encoded proteins. Virology, 566, 9–15.
 
