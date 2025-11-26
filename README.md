@@ -142,7 +142,7 @@ In addition, we suggest the following practical recommendations:
 3.	Integrate structure prediction (AlphaFold) and cryo-EM docking to bridge sequence-level HMM signals with 3D mechanistic models.
 
 
-#### 5.	Conclusions
+#### 5.	Conclusion
 <p>Phage head morphogenesis rests on a compact set of structural modules that are reused and recombined across Caudovirales. HMM family co-occurrence analysis anchored to structural knowledge about the HK97-fold, scaffolding behavior, portal architecture, and maturation proteases - reveals reproducible neighborhoods that define assembly strategies more robustly than synteny alone. Integrating neighborhood-aware annotation into pipelines such as PAT improves classification and highlights promising experimental targets for understanding and harnessing phage assembly.</p>
 
 #### References
