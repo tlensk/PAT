@@ -1,10 +1,8 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Created on Tue Sep 24 10:09:58 2024
+Copyright: (c) 2025 Tatiana Lenskaia. All rights reserved.
+E-mail: t.lenskaia@icloud.com
+"""
 
-@author: tatianalenskaia
-"""
 import core_methods as cm
 
 
